@@ -75,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				4177F1BB27028FC000B17D94 /* maize master */,
-				4177F1CC27028FC200B17D94 /* maize masterTests */,
 				4177F1D627028FC200B17D94 /* maize masterUITests */,
 				4177F1BA27028FC000B17D94 /* Products */,
 			);
@@ -121,6 +120,7 @@
 		4177F1D627028FC200B17D94 /* maize masterUITests */ = {
 			isa = PBXGroup;
 			children = (
+				4177F1CC27028FC200B17D94 /* maize masterTests */,
 				4177F1D727028FC200B17D94 /* maize_masterUITests.swift */,
 				4177F1D927028FC200B17D94 /* maize_masterUITestsLaunchTests.swift */,
 			);
