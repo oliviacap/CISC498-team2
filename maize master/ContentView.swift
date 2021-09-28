@@ -7,10 +7,15 @@
 
 import SwiftUI
 
+let backgroundColor = Color(UIColor.secondarySystemBackground)
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            Color.init(red: 0, green: 0.698, blue: 0.1255)
+            Text("maize master").font(Font.custom("Roobert",size:33))
+            
+        }
+       
     }
 }
 
