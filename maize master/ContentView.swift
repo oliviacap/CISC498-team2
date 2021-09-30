@@ -10,14 +10,17 @@ import SwiftUI
 let backgroundColor = Color(UIColor.secondarySystemBackground)
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            Color.init(red: 0, green: 0.698, blue: 0.1255)
-            Text("maize master").font(Font.custom("Roobert",size:33))
-            
+
+        VStack {
+//            Text("maize master")
+//                .font(.largeTitle)
+//                .fontWeight(.bold)
+//            .multilineTextAlignment(.center)
+//            Text("sparks lab")
         }
-       
+        }
+
     }
-}
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
