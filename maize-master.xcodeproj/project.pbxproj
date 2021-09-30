@@ -36,14 +36,14 @@
 
 /* Begin PBXFileReference section */
 		4127D74727063CAB00B78F42 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		4177F1B927028FC000B17D94 /* maize master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maize master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4177F1B927028FC000B17D94 /* maize-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maize-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177F1BC27028FC000B17D94 /* maize_masterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterApp.swift; sourceTree = "<group>"; };
 		4177F1BE27028FC000B17D94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4177F1C027028FC200B17D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4177F1C327028FC200B17D94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4177F1C927028FC200B17D94 /* maize masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4177F1C927028FC200B17D94 /* maize-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177F1CD27028FC200B17D94 /* maize_masterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterTests.swift; sourceTree = "<group>"; };
-		4177F1D327028FC200B17D94 /* maize masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4177F1D327028FC200B17D94 /* maize-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177F1D727028FC200B17D94 /* maize_masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterUITests.swift; sourceTree = "<group>"; };
 		4177F1D927028FC200B17D94 /* maize_masterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,8 +76,8 @@
 		4177F1B027028FC000B17D94 = {
 			isa = PBXGroup;
 			children = (
-				4177F1BB27028FC000B17D94 /* maize master */,
-				4177F1D627028FC200B17D94 /* maize masterUITests */,
+				4177F1BB27028FC000B17D94 /* maize-master */,
+				4177F1D627028FC200B17D94 /* maize-masterUITests */,
 				4177F1BA27028FC000B17D94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,14 +85,14 @@
 		4177F1BA27028FC000B17D94 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4177F1B927028FC000B17D94 /* maize master.app */,
-				4177F1C927028FC200B17D94 /* maize masterTests.xctest */,
-				4177F1D327028FC200B17D94 /* maize masterUITests.xctest */,
+				4177F1B927028FC000B17D94 /* maize-master.app */,
+				4177F1C927028FC200B17D94 /* maize-masterTests.xctest */,
+				4177F1D327028FC200B17D94 /* maize-masterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4177F1BB27028FC000B17D94 /* maize master */ = {
+		4177F1BB27028FC000B17D94 /* maize-master */ = {
 			isa = PBXGroup;
 			children = (
 				4127D74727063CAB00B78F42 /* WelcomeView.swift */,
@@ -101,7 +101,7 @@
 				4177F1C027028FC200B17D94 /* Assets.xcassets */,
 				4177F1C227028FC200B17D94 /* Preview Content */,
 			);
-			path = "maize master";
+			path = "maize-master";
 			sourceTree = "<group>";
 		};
 		4177F1C227028FC200B17D94 /* Preview Content */ = {
@@ -112,30 +112,30 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4177F1CC27028FC200B17D94 /* maize masterTests */ = {
+		4177F1CC27028FC200B17D94 /* maize-masterTests */ = {
 			isa = PBXGroup;
 			children = (
 				4177F1CD27028FC200B17D94 /* maize_masterTests.swift */,
 			);
-			path = "maize masterTests";
+			path = "maize-masterTests";
 			sourceTree = "<group>";
 		};
-		4177F1D627028FC200B17D94 /* maize masterUITests */ = {
+		4177F1D627028FC200B17D94 /* maize-masterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				4177F1CC27028FC200B17D94 /* maize masterTests */,
+				4177F1CC27028FC200B17D94 /* maize-masterTests */,
 				4177F1D727028FC200B17D94 /* maize_masterUITests.swift */,
 				4177F1D927028FC200B17D94 /* maize_masterUITestsLaunchTests.swift */,
 			);
-			path = "maize masterUITests";
+			path = "maize-masterUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4177F1B827028FC000B17D94 /* maize master */ = {
+		4177F1B827028FC000B17D94 /* maize-master */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4177F1DD27028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize master" */;
+			buildConfigurationList = 4177F1DD27028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-master" */;
 			buildPhases = (
 				4177F1B527028FC000B17D94 /* Sources */,
 				4177F1B627028FC000B17D94 /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "maize master";
+			name = "maize-master";
 			productName = "maize master";
-			productReference = 4177F1B927028FC000B17D94 /* maize master.app */;
+			productReference = 4177F1B927028FC000B17D94 /* maize-master.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4177F1C827028FC200B17D94 /* maize masterTests */ = {
+		4177F1C827028FC200B17D94 /* maize-masterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4177F1E027028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize masterTests" */;
+			buildConfigurationList = 4177F1E027028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-masterTests" */;
 			buildPhases = (
 				4177F1C527028FC200B17D94 /* Sources */,
 				4177F1C627028FC200B17D94 /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				4177F1CB27028FC200B17D94 /* PBXTargetDependency */,
 			);
-			name = "maize masterTests";
+			name = "maize-masterTests";
 			productName = "maize masterTests";
-			productReference = 4177F1C927028FC200B17D94 /* maize masterTests.xctest */;
+			productReference = 4177F1C927028FC200B17D94 /* maize-masterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4177F1D227028FC200B17D94 /* maize masterUITests */ = {
+		4177F1D227028FC200B17D94 /* maize-masterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4177F1E327028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize masterUITests" */;
+			buildConfigurationList = 4177F1E327028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-masterUITests" */;
 			buildPhases = (
 				4177F1CF27028FC200B17D94 /* Sources */,
 				4177F1D027028FC200B17D94 /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				4177F1D527028FC200B17D94 /* PBXTargetDependency */,
 			);
-			name = "maize masterUITests";
+			name = "maize-masterUITests";
 			productName = "maize masterUITests";
-			productReference = 4177F1D327028FC200B17D94 /* maize masterUITests.xctest */;
+			productReference = 4177F1D327028FC200B17D94 /* maize-masterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4177F1B427028FC000B17D94 /* Build configuration list for PBXProject "maize master" */;
+			buildConfigurationList = 4177F1B427028FC000B17D94 /* Build configuration list for PBXProject "maize-master" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +222,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4177F1B827028FC000B17D94 /* maize master */,
-				4177F1C827028FC200B17D94 /* maize masterTests */,
-				4177F1D227028FC200B17D94 /* maize masterUITests */,
+				4177F1B827028FC000B17D94 /* maize-master */,
+				4177F1C827028FC200B17D94 /* maize-masterTests */,
+				4177F1D227028FC200B17D94 /* maize-masterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 /* Begin PBXTargetDependency section */
 		4177F1CB27028FC200B17D94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4177F1B827028FC000B17D94 /* maize master */;
+			target = 4177F1B827028FC000B17D94 /* maize-master */;
 			targetProxy = 4177F1CA27028FC200B17D94 /* PBXContainerItemProxy */;
 		};
 		4177F1D527028FC200B17D94 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4177F1B827028FC000B17D94 /* maize master */;
+			target = 4177F1B827028FC000B17D94 /* maize-master */;
 			targetProxy = 4177F1D427028FC200B17D94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +422,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"maize master/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"maize-master/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -437,7 +437,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ud-senior-design.maize-master";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "maize-master";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"maize master/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"maize-master/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -466,7 +466,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ud-senior-design.maize-master";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "maize-master";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maize master.app/maize master";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maize-master.app/maize-master";
 			};
 			name = Debug;
 		};
@@ -517,7 +517,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maize master.app/maize master";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/maize-master.app/maize-master";
 			};
 			name = Release;
 		};
@@ -568,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4177F1B427028FC000B17D94 /* Build configuration list for PBXProject "maize master" */ = {
+		4177F1B427028FC000B17D94 /* Build configuration list for PBXProject "maize-master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4177F1DB27028FC200B17D94 /* Debug */,
@@ -577,7 +577,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4177F1DD27028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize master" */ = {
+		4177F1DD27028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-master" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4177F1DE27028FC200B17D94 /* Debug */,
@@ -586,7 +586,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4177F1E027028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize masterTests" */ = {
+		4177F1E027028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-masterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4177F1E127028FC200B17D94 /* Debug */,
@@ -595,7 +595,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4177F1E327028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize masterUITests" */ = {
+		4177F1E327028FC200B17D94 /* Build configuration list for PBXNativeTarget "maize-masterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4177F1E427028FC200B17D94 /* Debug */,
