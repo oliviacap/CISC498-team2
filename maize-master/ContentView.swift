@@ -1,5 +1,5 @@
 //
-//  PlantIDView.swift
+//  ContentView.swift
 //  maize-master
 //
 //  Created by Olivia Caponigro on 10/12/21.
