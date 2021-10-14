@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4119D1962718AA57002E17A7 /* PlantIDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119D1952718AA57002E17A7 /* PlantIDView.swift */; };
+		4119D1982718AA5F002E17A7 /* DevicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4119D1972718AA5F002E17A7 /* DevicesView.swift */; };
 		4127D74827063CAB00B78F42 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4127D74727063CAB00B78F42 /* WelcomeView.swift */; };
 		4177F1BD27028FC000B17D94 /* maize_masterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1BC27028FC000B17D94 /* maize_masterApp.swift */; };
-		4177F1BF27028FC000B17D94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1BE27028FC000B17D94 /* ContentView.swift */; };
 		4177F1C127028FC200B17D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4177F1C027028FC200B17D94 /* Assets.xcassets */; };
 		4177F1C427028FC200B17D94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4177F1C327028FC200B17D94 /* Preview Assets.xcassets */; };
 		4177F1CE27028FC200B17D94 /* maize_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1CD27028FC200B17D94 /* maize_masterTests.swift */; };
@@ -35,10 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4119D1952718AA57002E17A7 /* PlantIDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantIDView.swift; sourceTree = "<group>"; };
+		4119D1972718AA5F002E17A7 /* DevicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesView.swift; sourceTree = "<group>"; };
 		4127D74727063CAB00B78F42 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4177F1B927028FC000B17D94 /* maize-master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maize-master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177F1BC27028FC000B17D94 /* maize_masterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterApp.swift; sourceTree = "<group>"; };
-		4177F1BE27028FC000B17D94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4177F1C027028FC200B17D94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4177F1C327028FC200B17D94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4177F1C927028FC200B17D94 /* maize-masterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize-masterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,9 +97,10 @@
 		4177F1BB27028FC000B17D94 /* maize-master */ = {
 			isa = PBXGroup;
 			children = (
+				4119D1972718AA5F002E17A7 /* DevicesView.swift */,
+				4119D1952718AA57002E17A7 /* PlantIDView.swift */,
 				4127D74727063CAB00B78F42 /* WelcomeView.swift */,
 				4177F1BC27028FC000B17D94 /* maize_masterApp.swift */,
-				4177F1BE27028FC000B17D94 /* ContentView.swift */,
 				4177F1C027028FC200B17D94 /* Assets.xcassets */,
 				4177F1C227028FC200B17D94 /* Preview Content */,
 			);
@@ -260,9 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4177F1BF27028FC000B17D94 /* ContentView.swift in Sources */,
+				4119D1982718AA5F002E17A7 /* DevicesView.swift in Sources */,
 				4177F1BD27028FC000B17D94 /* maize_masterApp.swift in Sources */,
 				4127D74827063CAB00B78F42 /* WelcomeView.swift in Sources */,
+				4119D1962718AA57002E17A7 /* PlantIDView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
