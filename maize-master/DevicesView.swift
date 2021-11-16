@@ -26,7 +26,7 @@ struct DevicesView: View {
 
                   }
                   .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .leading)
-                  .background(Color.green.opacity(0.8))
+                  .background(Color("maizeGreen").opacity(0.8))
                   .edgesIgnoringSafeArea(.all)
 
               }

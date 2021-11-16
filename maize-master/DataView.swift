@@ -9,13 +9,79 @@
 
 import Foundation
 import SwiftUI
+import UIKit
 import Charts
 
-struct ContentView: View {
+ struct DataView: View {
     var body: some View {
-        Chart(data: [0.1, 0.3, 0.2, 0.5, 0.4, 0.9, 0.1])
-            .chartStyle(
-                LineChartStyle(.quadCurve, lineColor: .blue, lineWidth: 5)
-            )
+        VStack{
+        Rectangle()
+            .fill(Color.green)
+            .frame(width: 500, height: 500)
+        HStack{
+        Button(action: {print("Save")}){
+        SaveButton()
+        }
+        Button(action: {print("Reject")}){
+        RejectButton()
+        }
+        Button(action: {print("Next")}){
+        NextButton()
+        }
+      
+        }
+        Notes()
+        }
+    }
+}
+
+
+struct SaveButton: View{
+    var body: some View{
+    Text("SAVE")
+    .font(.headline)
+    .foregroundColor(.white)
+    .padding()
+    .frame(width: 150, height: 60)
+    .background(Color.green)
+    .cornerRadius(15.0)
+    }
+}
+
+
+struct RejectButton: View{
+    var body: some View{
+    Text("REJECT")
+    .font(.headline)
+    .foregroundColor(.white)
+    .padding()
+    .frame(width: 150, height: 60)
+    .background(Color.green)
+    .cornerRadius(15.0)
+    }
+}
+
+struct NextButton: View{
+    var body: some View{
+    Text("Next")
+    .font(.headline)
+    .foregroundColor(.white)
+    .padding()
+    .frame(width: 150, height: 60)
+    .background(Color.green)
+    .cornerRadius(15.0)
+    }
+}
+
+struct Notes: View {
+    @State private var name: String = "Notes"
+
+    var body: some View {
+        VStack(alignment: .center) {
+            TextField("Enter your notes", text: $name)
+            .frame(width: 600,height: 300)
+            .background(Color.green)
+               
+        }
     }
 }

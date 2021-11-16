@@ -14,25 +14,25 @@ let maizeGreen = Color(red: 0.0/255.0, green: 51.0/255.0, blue: 0.0/255.0, opaci
 struct WelcomeView: View {
     @State var email: String = ""
     
+   
+    
     var body: some View {
         VStack{
-
             WelcomeText()
             AppIcon()
             EmailField()
-            Button(action: {print("Login Button tapped")}){
+            Button(action: {
+                print("Login Button tapped")
+                let email = readLine()
+                print("user email:, \(String(describing: email))!")
+            }){
             LoginButton()
             }
-            
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity) // 1
         .padding()
-        .background(Color("maizeGreen"))
+        .background(Color.gray)
         .foregroundColor(Color("maizeGreen"))
-        //.padding()
-        // self.WelcomeText.backgroundColor = maizeGreen
-
-        
     }
 }
 
@@ -48,7 +48,7 @@ struct SwiftUIView_Previews: PreviewProvider {
 
 struct WelcomeText: View {
     var body: some View {
-        Text("Welcome to maize master!")
+        Text("welcome to maize master!")
             .font(.largeTitle)
             .foregroundColor(.white)
             .fontWeight(.semibold)
@@ -60,10 +60,11 @@ struct WelcomeText: View {
 struct AppIcon: View{
     var body: some View{
         RoundedRectangle(cornerRadius: 25, style: .continuous)
-                        .fill(Color.green)
+                        .fill(Color("maizeGreen"))
                         .frame(width: 200, height: 200)
                         .overlay(Image("maize").offset(y:15))
                         .shadow(radius: 7)
+                        .padding(.bottom, 20)
     }
 }
 
@@ -75,7 +76,9 @@ struct EmailField: View{
             .background(lightGreyColor)
             .foregroundColor(.black)
             .cornerRadius(5.0)
+            .frame(width:375, height: 60)
             .padding(.bottom, 20)
+
     }
 }
 
@@ -86,7 +89,7 @@ struct LoginButton: View{
     .foregroundColor(.white)
     .padding()
     .frame(width: 220, height: 60)
-    .background(Color.green)
+    .background(Color("maizeGreen"))
     .cornerRadius(15.0)
 }
 }

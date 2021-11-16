@@ -20,7 +20,7 @@ struct PlantIDView: View {
             PlantIDScannerView();
             }
         .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
-        .background(Color.green.opacity(0.8)).edgesIgnoringSafeArea(.all)
+        .background(Color("maizeGreen").opacity(0.8)).edgesIgnoringSafeArea(.all)
         }
 }
 

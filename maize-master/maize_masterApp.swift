@@ -12,8 +12,8 @@ struct maize_masterApp: App {
     var body: some Scene {
         WindowGroup {
             WelcomeView()
-            //DevicesView()
-            
+           // DevicesView()
+          //  DataView()
         }
     }
 }
