@@ -12,11 +12,13 @@ import SwiftUI
 import UIKit
 import Charts
 
+
+
  struct DataView: View {
     var body: some View {
         VStack{
         Rectangle()
-            .fill(Color.green)
+            .fill(Color.black)
             .frame(width: 500, height: 500)
         HStack{
         Button(action: {print("Save")}){
@@ -28,7 +30,6 @@ import Charts
         Button(action: {print("Next")}){
         NextButton()
         }
-      
         }
         Notes()
         }
@@ -56,7 +57,7 @@ struct RejectButton: View{
     .foregroundColor(.white)
     .padding()
     .frame(width: 150, height: 60)
-    .background(Color.green)
+    .background(Color.red)
     .cornerRadius(15.0)
     }
 }
@@ -68,20 +69,24 @@ struct NextButton: View{
     .foregroundColor(.white)
     .padding()
     .frame(width: 150, height: 60)
-    .background(Color.green)
+    .background(Color.black)
     .cornerRadius(15.0)
     }
 }
 
 struct Notes: View {
-    @State private var name: String = "Notes"
+    @State private var name: String = "Notes: "
 
     var body: some View {
-        VStack(alignment: .center) {
+        VStack(alignment: .leading) {
             TextField("Enter your notes", text: $name)
-            .frame(width: 600,height: 300)
-            .background(Color.green)
+            .padding(.leading)
+            .padding(.leading)
+            .frame(width: 500,height: 100)
+            .background(Color.black)
+            .foregroundColor(.white)
                
         }
     }
 }
+
