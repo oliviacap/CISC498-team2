@@ -16,6 +16,8 @@
 		4177F1CE27028FC200B17D94 /* maize_masterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1CD27028FC200B17D94 /* maize_masterTests.swift */; };
 		4177F1D827028FC200B17D94 /* maize_masterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1D727028FC200B17D94 /* maize_masterUITests.swift */; };
 		4177F1DA27028FC200B17D94 /* maize_masterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177F1D927028FC200B17D94 /* maize_masterUITestsLaunchTests.swift */; };
+		7AD41577275FF40E000A442C /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 7AD41576275FF40E000A442C /* CodeScanner */; };
+		7AD41579275FFB3D000A442C /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD41578275FFB3D000A442C /* DataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,7 @@
 		4177F1D327028FC200B17D94 /* maize-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "maize-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177F1D727028FC200B17D94 /* maize_masterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterUITests.swift; sourceTree = "<group>"; };
 		4177F1D927028FC200B17D94 /* maize_masterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maize_masterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AD41578275FFB3D000A442C /* DataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataView.swift; path = ../../../../DataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD41577275FF40E000A442C /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,7 @@
 		4177F1BB27028FC000B17D94 /* maize-master */ = {
 			isa = PBXGroup;
 			children = (
+				7AD41578275FFB3D000A442C /* DataView.swift */,
 				4119D1972718AA5F002E17A7 /* DevicesView.swift */,
 				4119D1952718AA57002E17A7 /* PlantIDView.swift */,
 				4127D74727063CAB00B78F42 /* WelcomeView.swift */,
@@ -149,6 +154,9 @@
 			dependencies = (
 			);
 			name = "maize-master";
+			packageProductDependencies = (
+				7AD41576275FF40E000A442C /* CodeScanner */,
+			);
 			productName = "maize master";
 			productReference = 4177F1B927028FC000B17D94 /* maize-master.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 4177F1B027028FC000B17D94;
+			packageReferences = (
+				7AD41575275FF40E000A442C /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 4177F1BA27028FC000B17D94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,6 +276,7 @@
 			files = (
 				4119D1982718AA5F002E17A7 /* DevicesView.swift in Sources */,
 				4177F1BD27028FC000B17D94 /* maize_masterApp.swift in Sources */,
+				7AD41579275FFB3D000A442C /* DataView.swift in Sources */,
 				4127D74827063CAB00B78F42 /* WelcomeView.swift in Sources */,
 				4119D1962718AA57002E17A7 /* PlantIDView.swift in Sources */,
 			);
@@ -609,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AD41575275FF40E000A442C /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AD41576275FF40E000A442C /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AD41575275FF40E000A442C /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4177F1B127028FC000B17D94 /* Project object */;
 }
